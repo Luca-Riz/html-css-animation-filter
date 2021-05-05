@@ -116,8 +116,8 @@
     0% {left: 10%; top:-10px;}
     30% {left: calc(100% - 40px); top: -10px;}
     40% {left: calc(100% - 40px); top: calc(100% - 10px);}
-    70% {left: -40px; top: calc(100% - 10px);}
-    90% {left: -40px; top: -10px;}
+    70% {left: -20px; top: calc(100% - 10px);}
+    90% {left: -20px; top: -10px;}
     100% {left: 10%; top:-10px;}
 }
 
