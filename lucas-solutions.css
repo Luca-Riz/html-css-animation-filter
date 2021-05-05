@@ -87,7 +87,6 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    /* background-color: red; */
     animation-name: move12;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -98,7 +97,6 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    /* background-color: red; */
     animation-name: move12bot;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -109,7 +107,6 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    /* background-color: red; */
     animation-name: move13;
     animation-duration: 5s;
     animation-direction: alternate;
