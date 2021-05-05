@@ -72,7 +72,8 @@
 @keyframes rot360ant { 
     from { 
         transform: rotate(0deg); 
-    } to { 
+    } 
+    to { 
         transform: rotate(-360deg); 
     }
 }
@@ -85,3 +86,24 @@
     90% {transform: rotate(300deg);}
 }
 
+.ex-12-button:hover .ex-12-top-white{
+    /* background-color: red; */
+    animation-name: move12;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes move12 {
+    50% {left: calc(100% - 60px);}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    /* background-color: red; */
+    animation-name: move12bot;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes move12bot {
+    50% {right: calc(100% - 60px);}
+}
