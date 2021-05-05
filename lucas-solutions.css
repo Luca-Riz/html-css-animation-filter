@@ -77,15 +77,11 @@
     }
 }
 
-.ex-11-icon {
-    animation: rot300 2s linear;
+.ex-11-icon:hover {
+    animation: rot300 3s;
 }
 
 @keyframes rot300 { 
-    from { 
-        transform: rotate(0deg); 
-    } to { 
-        transform: rotate(300deg); 
-    }
-
+    90% {transform: rotate(300deg);}
 }
+
