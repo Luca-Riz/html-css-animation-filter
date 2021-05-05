@@ -114,10 +114,10 @@
 
 @keyframes move13 {
     0% {left: 10%; top:-10px;}
-    30% {left: calc(100% - 30px); top: -10px;}
-    40% {left: calc(100% - 30px); top: calc(100% - 10px);}
-    70% {left: -30px; top: calc(100% - 10px);}
-    90% {left: -30px; top: -10px;}
+    30% {left: calc(100% - 40px); top: -10px;}
+    40% {left: calc(100% - 40px); top: calc(100% - 10px);}
+    70% {left: -40px; top: calc(100% - 10px);}
+    90% {left: -40px; top: -10px;}
     100% {left: 10%; top:-10px;}
 }
 
@@ -129,10 +129,10 @@
 
 @keyframes move13bot {
     0% {right: 20%; bottom:-10px;}
-    30% {right: calc(100% - 30px); bottom: -10px;}
-    40% {right: calc(100% - 30px); bottom: calc(100% - 10px);}
-    70% {right: -30px; bottom: calc(100% - 10px);}
-    90% {right: -30px; bottom: -10px;}
+    30% {right: calc(100% - 40px); bottom: -10px;}
+    40% {right: calc(100% - 40px); bottom: calc(100% - 10px);}
+    70% {right: -40px; bottom: calc(100% - 10px);}
+    90% {right: -40px; bottom: -10px;}
     100% {right: 20%; bottom:-10px;}
 }
 
